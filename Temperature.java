@@ -15,10 +15,10 @@ public class Temperature
    }
    
    public double getCelsius() {
-	   return (5/9) * (ftemp -32);
+	   return (5/9) * (ftemp -32); //This make your code always return zero for celsius
    }
    
    public double getKelvin() {
-	   return ((5/9) * (ftemp -32)) + 273;
+	   return ((5/9) * (ftemp -32)) + 273;//This make your code always return zero for kelvin
    }
 }
